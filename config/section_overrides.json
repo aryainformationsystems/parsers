@@ -1,0 +1,11 @@
+{
+    "lsb-release": "Others",
+    "extra-cmake-modules": "KDE Plasma 5",
+    "kde-desktop-environment": "KDE Plasma 5",
+    "libdbusmenu-qt": "KDE Plasma 5",
+    "phonon": "KDE Plasma 5",
+    "phonon-backend-gstreamer": "KDE Plasma 5",
+    "phonon-backend-vlc": "KDE Plasma 5",
+    "polkit-qt": "KDE Plasma 5",
+    "frameworks5": "KDE Plasma 5"
+}

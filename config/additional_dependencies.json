@@ -1,0 +1,51 @@
+{
+	"harfbuzz": [
+		"graphite-wo-harfbuzz",
+		"freetype2-wo-harfbuzz"
+	],
+	"graphite2": [
+		"harfbuzz"
+	],
+	"alsa-tools": [
+		"fltk"
+	],
+	"frameworks5": [
+		"noto-fonts",
+		"oxygen-fonts",
+		"bluez",
+		"modemmanager",
+		"jasper",
+		"mitkrb",
+		"udisks2",
+		"upower",
+		"media-player-info"
+	],
+	"php": ["libgd", "postgresql", "net-snmp", "tidy-html5", "onig"],
+	"babl": ["lcms2"],
+	"mlt": ["pulseaudio"],
+	"vlc": ["qt5"],
+	"pavucontrol": ["gtkmm3", "libsigc"],
+	"geoclue2": ["libnotify"],
+	"network-manager-applet": ["polkit-gnome", "libnma"],
+	"python-modules#pygobject3": ["python-modules#pycairo2"],
+	"python-modules#python-dbusmock": ["python-modules#dbus-python"],
+	"mutter": ["graphene", "pipewire"],
+	"pipewire": ["jack2"],
+	"libgweather": ["python-modules#pygobject3"],
+	"sysprof": ["json-glib"],
+	"webkitgtk": [
+		"hyphen",
+		"libmanette",
+		"libwpe",
+		"wpebackend-fdo",
+		"bubblewrap",
+		"xdg-dbus-proxy",
+		"geoclue2",
+		"gtk-doc",
+		"woff2",
+		"libseccomp"
+	],
+	"accountsservice": [
+		"vala"
+	]
+}
