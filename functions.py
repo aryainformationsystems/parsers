@@ -192,7 +192,7 @@ def modify_patch_downloads(package, version, patches_file):
 		if endswith(url, '.patch'):
 			with open(patches_file, 'a') as fp:
 				fp.write(url + '\n')
-			modified.append('https://bitbucket.org/chandrakantsingh/patches/raw/' + version + '/' + url[url.rindex('/')+1:])
+			modified.append('https://raw.githubusercontent.com/aryainformationsystems/patches/' + version + '/' + url[url.rindex('/')+1:])
 		else:
 			modified.append(url)
 	return modified
