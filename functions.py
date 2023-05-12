@@ -20,7 +20,7 @@ from filters import pnmixer
 from filters import rustfilter1
 from filters import kframeworksfilter
 
-systemd_service_tarball_url = 'http://www.linuxfromscratch.org/blfs/downloads/9.0-systemd/blfs-systemd-units-20180105.tar.bz2'
+systemd_service_tarball_url = 'https://ftp.osuosl.org/pub/blfs/conglomeration/blfs-bootscripts/blfs-bootscripts-20230101.tar.xz'
 systemd_service_tarball = systemd_service_tarball_url.split('/')[-1]
 systemd_service_dir = systemd_service_tarball[0:systemd_service_tarball.index('.')]
 

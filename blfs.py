@@ -64,7 +64,7 @@ links = document.select('li.sect1 a[href]')
 
 print('Parsing packages...')
 for link in links:
-	if 'perl-modules.html' in link.attrs['href'] or 'perl-deps.html' in link.attrs['href'] or 'python-modules.html' in link.attrs['href'] or 'x7driver.html' in link.attrs['href']:
+	if 'python-dependencies.html' in link.attrs['href'] or 'perl-modules.html' in link.attrs['href'] or 'perl-deps.html' in link.attrs['href'] or 'python-modules.html' in link.attrs['href'] or 'x7driver.html' in link.attrs['href']:
 		packages.extend(parse_perl_modules(book_dir + '/' + link.attrs['href']))
 		continue
 	process = True
